@@ -7,6 +7,7 @@ import Layout from "@/components/layout";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import  {Articles} from "@/components/Articles";
+import Footer from "@/components/Footer";
 
 
 
@@ -41,28 +42,28 @@ export default function Home() {
         </div>
 
         <div className="flex flex-shrink-0 flex-row h-max w-max-screen items-center font-bold justify-center">
-          <div className="flex flex-shrink-0 flex-col h-max m-5 p-10 px-14 gap-2 items-center rounded-md  border border-blue border-bold  justify-center">
+          <div className="flex flex-shrink-0 flex-col h-max m-5 p-10 px-14 gap-2 items-center rounded-md  border border-blue border-4 justify-center">
             <div className="flex flex-shrink-0  items-center   justify-center"><Image src={e} alt="logo" /></div>
             <div className="flex flex-shrink-0  items-center   justify-center">26+</div>
             <div className="flex flex-shrink-0  items-center   justify-center">Events</div>
 
           </div>
 
-          <div className="flex flex-shrink-0 flex-col h-max m-5 p-10 gap-2 items-center rounded-md border border-blue border-bold  justify-center">
+          <div className="flex flex-shrink-0 flex-col h-max m-5 p-10 gap-2 items-center rounded-md border border-blue border-4 justify-center">
             <div className="flex flex-shrink-0  items-center   justify-center"><Image src={s} alt="logo" /></div>
             <div className="flex flex-shrink-0  items-center   justify-center">26+</div>
             <div className="flex flex-shrink-0  items-center   justify-center">Registrations</div>
 
           </div>
 
-          <div className="flex flex-shrink-0 flex-col h-max m-5 p-10 px-14 gap-2 items-center rounded-md border border-blue border-bold  justify-center">
+          <div className="flex flex-shrink-0 flex-col h-max m-5 p-10 px-14 gap-2 items-center rounded-md border border-blue  border-4 justify-center">
             <div className="flex flex-shrink-0  items-center   justify-center"><Image src={s} alt="logo" /></div>
             <div className="flex flex-shrink-0  items-center   justify-center">26+</div>
             <div className="flex flex-shrink-0  items-center   justify-center">Projects</div>
 
           </div>
 
-          <div className="flex flex-shrink-0 flex-col h-max m-5 p-10 gap-2 items-center rounded-md  border border-blue border-bold  justify-center">
+          <div className="flex flex-shrink-0 flex-col h-max m-5 p-10 gap-2 items-center rounded-md  border border-blue  border-4  justify-center">
             <div className="flex flex-shrink-0  items-center   justify-center"><Image src={s} alt="logo" /></div>
             <div className="flex flex-shrink-0  items-center   justify-center">26+</div>
             <div className="flex flex-shrink-0  items-center   justify-center">IG Followers</div>
@@ -84,6 +85,7 @@ export default function Home() {
         <div>vision</div>
         <div>mission</div>
        </div>
+       <Footer/>
       </main>
     </>
   );

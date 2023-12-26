@@ -8,7 +8,7 @@ type Props = {
 
 const Logo = (props: Props) => {
   return (
-    <div className={`flex  ${props.className}`}>
+    <div className={`flex w-max h-max ${props.className}`}>
       <Link href="/">
         <Image src={logo} alt="logo" />
       </Link>
