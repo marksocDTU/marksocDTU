@@ -1,8 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
+import l from "@/assets/landing.png";
 import Layout from "@/components/layout";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
+import  {Articles} from "@/components/Articles";
 
 
 
@@ -22,6 +24,38 @@ export default function Home() {
       </Head>
       <main>
        <Header/>
+       <div className="flex flex-shrink-0 flex-col h-max w-max-screen justify-center">
+       
+        <div className="flex flex-shrink-0 flex-row h-max w-max-screen items-center  justify-center">
+          <div className="flex flex-shrink-0 flex-col item-center m-10 w-1/2">
+            <div className="flex flex-shrink-0 text-5xl font-Inter  ">MARKETING</div>
+            <div className="flex flex-shrink-0 text-5xl font-Inter ">SOCIETY DTU</div>
+            <div className="flex flex-shrink-0 ">TEXT</div>
+
+          </div>
+          <div className="flex flex-shrink-0  h-max w-1/2">
+          <Image src={l} alt="logo" />
+          </div>
+
+        </div>
+
+        <div className="flex flex-shrink-0 flex-row h-max w-max-screen items-center  justify-center">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+        </div>
+
+       </div>
+
+
+
+       <div className="flex flex-shrink-0 flex-col h-max w-max-screen justify-center bg-blue"><Articles/></div>
+
+       <div className="flex flex-shrink-0 flex-row h-max w-max-screen justify-center">
+        <div></div>
+        <div></div>
+       </div>
       </main>
     </>
   );

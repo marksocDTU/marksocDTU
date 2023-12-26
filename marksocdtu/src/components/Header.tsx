@@ -22,24 +22,17 @@ const Header = (props: Props) => {
           Home
         </Navlink>
         <Navlink href="#" pathname={pathname}>
-          How it Works
+          Our Team
         </Navlink>
         <Navlink href="#" pathname={pathname}>
-          Features
+          Publications
         </Navlink>
         <Navlink href="#" pathname={pathname}>
-          Clients
+          Services
         </Navlink>
         <Navlink href="#" pathname={pathname}>
-          Categories
+          Contact us
         </Navlink>
-        <Navlink href="#" pathname={pathname}>
-          Testimonials
-        </Navlink>
-        <Navlink href="#" pathname={pathname}>
-          Contact
-        </Navlink>
-        <button className="bg-primary-500 ml-4 rounded-full px-6 py-3 font-bold text-white">Get Started</button>
       </nav>
       {/* // Mobile */}
       <nav className={`absolute right-0 top-24 flex h-[calc(100%-6rem)] w-full flex-col items-center justify-center bg-white text-xl xl:hidden ${showMobileMenu ? "flex" : "hidden"}`}>
