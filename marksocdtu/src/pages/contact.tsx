@@ -13,48 +13,76 @@ export default function Contact() {
   return (
     <div>
          <Header/>
+         <div>map</div>
+         <div className="flex flex-shrink-0 flex-col h-max w-max-screen ">
+          <div className="flex flex-shrink-0 flex-col h-max w-max-screen border item-center ">
+            <div className="flex flex-shrink-0 flex-col h-max w-max-screen  border item-center text-4xl font-blue m-10 ">Send a message</div>
+            <div className="flex flex-shrink-0 flex-col h-max w-max-screen items-stretch ">
+            <div className="flex flex-shrink-0 w-max h-max items-stretch flex-col justify-center m-5 gap-4">
+              <div className="flex flex-shrink-0  flex-row h-max bg-white border border-gray-500 gap-2 items-center">
+                <div className="flex flex-shrink-0 text-black text-opacity-50 text-xl  font-inter ">Enter your name</div>
+                <div className="flex flex-shrink-0 w-max-screen text-black text-opacity-50 text-xl  font-inter "><input type="text" className="flex flex-shrink-0 w-max" /></div></div>
+              
+
+              <div className="flex flex-shrink-0  flex-row h-max bg-white border border-gray-500 gap-2 items-center">
+                <div className="flex flex-shrink-0 text-black text-opacity-50 text-xl  font-inter ">Enter your email address</div>
+                <div className="flex flex-shrink-0 w-max-screen text-black text-opacity-50 text-xl  font-inter "><input type="text" className="flex flex-shrink-0 w-max" /></div></div>
+
+
+              <div className="flex flex-shrink-0  flex-row h-max  bg-white border border-gray-500 gap-2 items-center">
+                <div className="flex flex-shrink-0 text-black text-opacity-50 text-xl  font-inter ">Enter your subject</div>
+                <div className="flex flex-shrink-0 w-max-screen text-black text-opacity-50 text-xl  font-inter "><input type="text" className="flex flex-shrink-0 w-max" /></div></div>
+
+
+
+
+
+ 
+    </div>
+
+              
+            </div>
+
+          </div>
+          <div></div>
+
+         </div>
          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div>
             map ke liye space
         </div>
          
-<div className=" flex flex-shrink-0 text-neutral-800 text-2xl font-medium font-['Inter'] leading-7  my-7">Send a Message</div>
 
-<div className="flex flex-shrink-0 w-96 h-96 pb-96 flex-col justify-start items-start gap-4 place-items-center">
-      <div className="flex flex-shrink-0 h-14 pl-3.5 py-4 bg-white border border-gray-500 justify-end items-center">
-        <div className="flex flex-shrink-0 w-96 h-6 text-black text-opacity-50 text-xs font-light font-inter leading-snug">
-          Enter your name
-        </div>
-        <input type="text" className="flex flex-shrink-0 ml-4 px-2 py-1 border border-gray-300 rounded" />
-      </div>
 
-      <div className="flex flex-shrink-0 h-14 pl-3.5 py-4 bg-white border border-gray-500 justify-end items-center">
-        <div className="flex flex-shrink-0 w-96 h-6 text-black text-opacity-50 text-xs font-light font-inter leading-snug">
-          Enter your email address
-        </div>
-        <input type="email" className="flex flex-shrink-0 ml-4 px-2 py-1 border border-gray-300 rounded" />
-      </div>
-
-      <div className="flex flex-shrink-0 h-14 pl-3.5 py-4 bg-white border border-gray-500 justify-end items-center">
-        <div className="flex flex-shrink-0 w-96 h-6 text-black text-opacity-50 text-xs font-light font-inter leading-snug">
-          Enter your Subject
-        </div>
-        <input type="text" className="flex flex-shrink-0 ml-4 px-2 py-1 border border-gray-300 rounded" />
-      </div>
-
-      <div className="flex flex-shrink-0 h-20 pl-3.5 bg-white border border-gray-500 justify-end items-center">
-        <div className="flex flex-shrink-0 w-96 h-6 text-black text-opacity-50 text-xs font-light font-inter leading-snug">
-          Message
-        </div>
-        <textarea className="flex flex-shrink-0 ml-4 px-2 py-1 border border-gray-300 rounded"></textarea>
-      </div>
-
-      <div className="flex flex-shrink-0 pl-3 pr-8 py-3 bg-gray-800 justify-start items-center">
-        <button type="submit" className="text-white text-xs font-light font-inter leading-snug">
-          Send Message
-        </button>
-      </div>
-    </div>
 
 
 
