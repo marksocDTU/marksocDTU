@@ -80,7 +80,7 @@ export const Articles = () => {
           {clientData.map((client) => (
             <div
               key={client.name}
-              className="bg-light h-[500px] text-black rounded-xl border border-black"
+              className="bg-light h-[300px] text-black rounded-xl  border border-black"
             >
               <div className="h-10 bg-blue-500 rounded-t-xl border border-b-black ">
                 <div className="flex items-start p-3 gap-2">

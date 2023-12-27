@@ -24,11 +24,11 @@ const Header = (props: Props) => {
         <Navlink href="team" pathname={pathname}>
           Our Team
         </Navlink>
-        <Navlink href="event" pathname={pathname}>
-          Publications
-        </Navlink>
         <Navlink href="#" pathname={pathname}>
-          Services
+          Live Projects
+        </Navlink>
+        <Navlink href="event" pathname={pathname}>
+          Events
         </Navlink>
         <Navlink href="contact" pathname={pathname}>
           Contact us

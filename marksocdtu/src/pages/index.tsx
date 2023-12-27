@@ -8,6 +8,9 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import  {Articles} from "@/components/Articles";
 import Footer from "@/components/Footer";
+import AOS from "aos";
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 
 
@@ -16,6 +19,10 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  useEffect(()=>{
+    AOS.init({duration:2000,once:false});
+  },[]
+  );
   return (
     <>
       <Head>
@@ -29,41 +36,41 @@ export default function Home() {
        <div className="flex flex-shrink-0 flex-col h-max w-max-screen justify-center">
        
         <div className="flex flex-shrink-0 flex-row h-max w-max-screen pl-20 items-center  justify-center">
-          <div className="flex flex-shrink-0 flex-col item-center m-10 w-1/2">
+          <div className="animation flex flex-shrink-0 flex-col item-center m-10 w-1/2" data-aos="fade-left" >
             <div className="flex flex-shrink-0 text-5xl font-Inter  ">MARKETING</div>
             <div className="flex flex-shrink-0 text-5xl font-Inter ">SOCIETY DTU</div>
             <div className="flex flex-shrink-0 ">TEXT</div>
 
           </div>
-          <div className="flex flex-shrink-0  h-max w-1/2">
+          <div className=" animation  flex flex-shrink-0  h-max w-1/2" data-aos="fade-right">
           <Image src={l} alt="logo" />
           </div>
 
         </div>
 
         <div className="flex flex-shrink-0 flex-row h-max w-max-screen items-center font-bold justify-center">
-          <div className="flex flex-shrink-0 flex-col h-max m-5 p-10 px-14 gap-2 items-center rounded-md  border border-blue border-4 justify-center">
+          <div className=" animation flex flex-shrink-0 flex-col h-max m-5 p-10 px-14 gap-2 items-center rounded-md  border border-dark border-4 justify-center " data-aos="flip-right">
             <div className="flex flex-shrink-0  items-center   justify-center"><Image src={e} alt="logo" /></div>
             <div className="flex flex-shrink-0  items-center   justify-center">26+</div>
             <div className="flex flex-shrink-0  items-center   justify-center">Events</div>
 
           </div>
 
-          <div className="flex flex-shrink-0 flex-col h-max m-5 p-10 gap-2 items-center rounded-md border border-blue border-4 justify-center">
+          <div className=" animation flex flex-shrink-0 flex-col h-max m-5 p-10 gap-2 items-center rounded-md border border-dark border-4 justify-center" data-aos="flip-right">
             <div className="flex flex-shrink-0  items-center   justify-center"><Image src={s} alt="logo" /></div>
             <div className="flex flex-shrink-0  items-center   justify-center">26+</div>
             <div className="flex flex-shrink-0  items-center   justify-center">Registrations</div>
 
           </div>
 
-          <div className="flex flex-shrink-0 flex-col h-max m-5 p-10 px-14 gap-2 items-center rounded-md border border-blue  border-4 justify-center">
+          <div className="animation flex flex-shrink-0 flex-col h-max m-5 p-10 px-14 gap-2 items-center rounded-md border border-dark  border-4 justify-center"data-aos="flip-right">
             <div className="flex flex-shrink-0  items-center   justify-center"><Image src={s} alt="logo" /></div>
             <div className="flex flex-shrink-0  items-center   justify-center">26+</div>
             <div className="flex flex-shrink-0  items-center   justify-center">Projects</div>
 
           </div>
 
-          <div className="flex flex-shrink-0 flex-col h-max m-5 p-10 gap-2 items-center rounded-md  border border-blue  border-4  justify-center">
+          <div className="animation flex flex-shrink-0 flex-col h-max m-5 p-10 gap-2 items-center rounded-md  border border-dark  border-4  justify-center" data-aos="flip-right">
             <div className="flex flex-shrink-0  items-center   justify-center"><Image src={s} alt="logo" /></div>
             <div className="flex flex-shrink-0  items-center   justify-center">26+</div>
             <div className="flex flex-shrink-0  items-center   justify-center">IG Followers</div>
@@ -79,7 +86,7 @@ export default function Home() {
 
 
 
-       <div className="flex flex-shrink-0 flex-col h-max w-max-screen justify-center bg-blue"><Articles/></div>
+       <div className="flex flex-shrink-0 flex-col h-max w-max-screen justify-center border border-4 bg-dark "><div className="flex flex-shrink-0 flex-col h-max w-max-screen justify-center"><Articles/></div></div>
 
        <div className="flex flex-shrink-0 flex-row h-max w-max-screen justify-center">
         <div>vision</div>

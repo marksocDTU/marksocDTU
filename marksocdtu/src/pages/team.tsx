@@ -6,6 +6,7 @@ import s from "@/assets/svg.png";
 import Layout from "@/components/layout";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
+import Name from "@/components/Name";
 import  {Articles} from "@/components/Articles";
 import Footer from "@/components/Footer";
 
@@ -29,29 +30,18 @@ export default function Home() {
        <div className="flex flex-col flex-shrink-0 gap-7 justify-center p-20 w-max-screen h-max">
         <div className="flex flex-shrink-0 border "> group image</div>
         <div className="flex flex-row pl-20  m-10 gap-10 flex-shrink-0">
-            <div className="flex flex-col border h-1/6 w-1/6 flex-shrink-0  hover:shadow-xl  ">
-                <div className="flex  border flex-shrink-0" ><Image src={l} alt="logo" /></div>
-                <div className="flex border flex-shrink-0">designation</div>
+          
+          
+     
 
-            </div>
 
-            <div className="flex flex-col border h-1/6 w-1/6 flex-shrink-0">
-                <div className="flex  border flex-shrink-0" ><Image src={l} alt="logo" /></div>
-                <div className="flex border flex-shrink-0">designation</div>
+            <Name/>
+            <Name/>
+            <Name/>
+            <Name/>
+            
 
-            </div>
 
-            <div className="flex flex-col border h-1/6 w-1/6 flex-shrink-0">
-                <div className="flex  border flex-shrink-0" ><Image src={l} alt="logo" /></div>
-                <div className="flex border flex-shrink-0">designation</div>
-
-            </div>
-
-            <div className="flex flex-col border h-1/6 w-1/6 flex-shrink-0">
-                <div className="flex  border flex-shrink-0" ><Image src={l} alt="logo" /></div>
-                <div className="flex border flex-shrink-0">designation</div>
-
-            </div>
          
         </div>
 

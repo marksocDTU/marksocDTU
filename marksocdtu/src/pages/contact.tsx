@@ -77,10 +77,7 @@ export default function Contact() {
 
 
 
-        <div>
-            map ke liye space
-        </div>
-         
+
 
 
 
