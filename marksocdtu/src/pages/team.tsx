@@ -30,19 +30,10 @@ export default function Home() {
        <div className="flex flex-col flex-shrink-0 gap-7 justify-center p-20 w-max-screen h-max">
         <div className="flex flex-shrink-0 border "> group image</div>
         <div className="flex flex-row pl-20  m-10 gap-10 flex-shrink-0">
-          
-          
-     
-
-
             <Name/>
             <Name/>
             <Name/>
             <Name/>
-            
-
-
-         
         </div>
 
 

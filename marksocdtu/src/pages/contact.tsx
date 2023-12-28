@@ -14,24 +14,20 @@ export default function Contact() {
     <div>
          <Header/>
          <div>map</div>
-         <div className="flex flex-shrink-0 flex-col h-max w-max-screen ">
-          <div className="flex flex-shrink-0 flex-col h-max w-max-screen border item-center ">
-            <div className="flex flex-shrink-0 flex-col h-max w-max-screen  border item-center text-4xl font-blue m-10 ">Send a message</div>
+         <div className=" flex flex-shrink-0 flex-col h-max w-max-screen ">
+          <div className=" flex flex-shrink-0 flex-col h-1/2 w-1/2 p-50 border item-center ">
+            <div className="flex flex-shrink-0 flex-col h-max w-max-screen  border item-center text-4xl px-50 m-10 ">Send a message</div>
             <div className="flex flex-shrink-0 flex-col h-max w-max-screen items-stretch ">
             <div className="flex flex-shrink-0 w-max h-max items-stretch flex-col justify-center m-5 gap-4">
-              <div className="flex flex-shrink-0  flex-row h-max bg-white border border-gray-500 gap-2 items-center">
-                <div className="flex flex-shrink-0 text-black text-opacity-50 text-xl  font-inter ">Enter your name</div>
-                <div className="flex flex-shrink-0 w-max-screen text-black text-opacity-50 text-xl  font-inter "><input type="text" className="flex flex-shrink-0 w-max" /></div></div>
+              
+                <input type="text" className="flex flex-shrink-0 w-max-screen  border border-gray  placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black-600 sm:text-sm sm:leading-6" placeholder="Enter your Name"/> 
+                <input type="text" className="flex flex-shrink-0 w-max-screen  border border-gray  placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black-600 sm:text-sm sm:leading-6" placeholder="Enter your Name"/> 
               
 
-              <div className="flex flex-shrink-0  flex-row h-max bg-white border border-gray-500 gap-2 items-center">
-                <div className="flex flex-shrink-0 text-black text-opacity-50 text-xl  font-inter ">Enter your email address</div>
-                <div className="flex flex-shrink-0 w-max-screen text-black text-opacity-50 text-xl  font-inter "><input type="text" className="flex flex-shrink-0 w-max" /></div></div>
-
-
+              
               <div className="flex flex-shrink-0  flex-row h-max  bg-white border border-gray-500 gap-2 items-center">
-                <div className="flex flex-shrink-0 text-black text-opacity-50 text-xl  font-inter ">Enter your subject</div>
-                <div className="flex flex-shrink-0 w-max-screen text-black text-opacity-50 text-xl  font-inter "><input type="text" className="flex flex-shrink-0 w-max" /></div></div>
+                <div className="flex flex-shrink-0 text-black text-opacity-50 text-xl  font-inter ">Message</div>
+                <input type="text" className="flex flex-shrink-0 w-max-screen  border border-gray  placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black-600 sm:text-sm sm:leading-6" placeholder="Enter your Name"/></div>
 
 
 
