@@ -75,7 +75,7 @@ const Footer = (props: Props) => {
       <div className="text-white text-xs font-normal font-['Merriweather'] leading-none">marksocdtuofficial@gmail.com</div>
     </div>
   </div>
-  <div><span className="text-white text-xs font-normal font-['Merriweather'] leading-none">Designed and Developed by </span><span className="text-emerald-300 text-xs font-normal font-['Merriweather'] underline leading-none">Yash Choudhary  </span><span className="text-emerald-300 text-xs font-normal font-['Merriweather'] leading-none">& </span><a href="https://www.linkedin.com/in/sahil-anand-640112e/" target="_blank"><span className="text-emerald-300 text-xs font-normal font-['Merriweather'] underline leading-none"> Sahil Anand</span></a></div>
+  <div><span className="text-white text-xs font-normal font-['Merriweather'] leading-none">Designed and Developed by </span><a href="https://www.linkedin.com/in/yash-choudhary-044889256/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><span className="text-emerald-300 text-xs font-normal font-['Merriweather'] underline leading-none">Yash Choudhary  </span></a><span className="text-emerald-300 text-xs font-normal font-['Merriweather'] leading-none">& </span><a href="https://www.linkedin.com/in/sahil-anand-640112e/" target="_blank"><span className="text-emerald-300 text-xs font-normal font-['Merriweather'] underline leading-none"> Sahil Anand</span></a></div>
 </div>
   );
 };
