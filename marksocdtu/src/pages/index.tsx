@@ -3,7 +3,6 @@ import Image from "next/image";
 import Layout from "@/components/layout";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 
 
 
