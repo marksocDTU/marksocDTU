@@ -28,12 +28,13 @@ export default function Home() {
       <main>
        <Header/>
        <div className="flex flex-col flex-shrink-0 gap-7 justify-center p-20 w-max-screen h-max">
-        <div className="flex flex-shrink-0 border "> group image</div>
+        <div className="flex flex-shrink-0 w-max-screen h-max p-4 border text-4xl text-center  font-dark font-bold  "> SENIOR COUNCIL</div>
+
         <div className="flex flex-row pl-20  m-10 gap-10 flex-shrink-0">
-            <Name/>
-            <Name/>
-            <Name/>
-            <Name/>
+            <Name
+             name = "man"
+             designation = "man" />
+            
         </div>
 
 

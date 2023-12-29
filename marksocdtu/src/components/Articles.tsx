@@ -3,6 +3,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import React from 'react';
+import Image from "next/image";
+import l from "@/assets/landing.png";
+
 
 type Props = {
   latest : string; 
@@ -13,7 +16,7 @@ export const Articles = () => {
     {
       name: "Tom Smithenson",
       content:
-        "I'm a testimonial. Click to edit me and add text that syas soemthing nice about you and your services.",
+      <Image src={l} alt="logo" />,
     },
     {
       name: "Tom ",
@@ -62,6 +65,8 @@ export const Articles = () => {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 3,
+    autoplay: true,
+    autoplayspeed: 2000,
   
     responsive: [
       {
@@ -70,6 +75,7 @@ export const Articles = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           autoplay: true,
+          autoplayspeed: 2000,
         },
       },
     ],
@@ -82,15 +88,9 @@ export const Articles = () => {
           {clientData.map((client) => (
             <div
               key={client.name}
-              className="bg-light h-[300px] text-black rounded-xl  border border-black"
+              className="bg-light h-[300px] text-black rounded-xl  border border-dark border-5"
             >
-              <div className="h-10 bg-blue-500 rounded-t-xl border border-b-black ">
-                <div className="flex items-start p-3 gap-2">
-                  <div className="w-3 h-3 bg-black rounded-full"></div>
-                  <div className="w-3 h-3 bg-black rounded-full"></div>
-                  <div className="w-3 h-3 bg-black rounded-full"></div>
-                </div>
-              </div>
+              
               <div className="flex flex-col items-center gap-4 p-4 mt-20">
                 <p className="text-center px-4">{client.content}</p>
                 <p className="text-xl text-center font-semibold mt-4">

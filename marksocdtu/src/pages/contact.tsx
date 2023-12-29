@@ -15,9 +15,9 @@ export default function Contact() {
          <Header/>
          <div>map</div>
          <div className=" flex flex-shrink-0 flex-col h-max w-max-screen ">
-          <div className=" flex flex-shrink-0 flex-col h-1/2 w-1/2 p-50 border item-center ">
-            <div className="flex flex-shrink-0 flex-col h-max w-max-screen  border item-center text-4xl px-50 m-10 ">Send a message</div>
-            <div className="flex flex-shrink-0 flex-col h-max w-max-screen items-stretch ">
+          <div className=" flex flex-shrink-0 flex-col h-1/2 w-full-screen p-50 border justify-item-center ">
+            <div className="flex flex-shrink-0 flex-col h-max w-max-screen text-center text-4xl px-50 m-10 ">Send a message</div>
+            <div className="flex flex-shrink-0 flex-col h-max w-max-screen  ">
             <div className="flex flex-shrink-0 w-max h-max items-stretch flex-col justify-center m-5 gap-4">
               
                 <input type="text" className="flex flex-shrink-0 w-max-screen  border border-gray  placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black-600 sm:text-sm sm:leading-6" placeholder="Enter your Name"/> 
