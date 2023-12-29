@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import l from "@/assets/landing.png";
+import l from "@/assets/Ansh.png";
 import e from "@/assets/event.png";
 import s from "@/assets/svg.png";
 import Layout from "@/components/layout";
@@ -33,7 +33,8 @@ export default function Home() {
         <div className="flex flex-row   m-10 gap-14 justify-center flex-shrink-0">
             <Name
              name = "ANSH DHAMA"
-             designation = "PRESIDENT" />
+             designation = "PRESIDENT"
+             image={l} />
 
              <Name
              name = "ANKIT GOYAL"
