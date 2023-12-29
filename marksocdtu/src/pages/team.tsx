@@ -30,12 +30,47 @@ export default function Home() {
        <div className="flex flex-col flex-shrink-0 gap-7 justify-center p-20 w-max-screen h-max">
         <div className="flex flex-shrink-0 w-max-screen h-max p-4 border text-4xl text-center  font-dark font-bold  "> SENIOR COUNCIL</div>
 
-        <div className="flex flex-row pl-20  m-10 gap-10 flex-shrink-0">
+        <div className="flex flex-row   m-10 gap-14 justify-center flex-shrink-0">
             <Name
-             name = "man"
-             designation = "man" />
+             name = "ANSH DHAMA"
+             designation = "PRESIDENT" />
+
+             <Name
+             name = "ANKIT GOYAL"
+             designation = "VICE-PRESIDENT" />
+
+             <Name
+             name = "ANUJ"
+             designation = "TREASURER" />
+
+             <Name
+             name = "AMAN YADAV"
+             designation = "JOINT TREASURER" />
             
         </div>
+
+
+        <div className="flex flex-row   m-10 gap-14 justify-center flex-shrink-0">
+            <Name
+             name = "HARSH AGGARWAL"
+             designation = "GENERAL SECRETARY" />
+
+             <Name
+             name = "ADRIKA MISHRA"
+             designation = "JOIN SECRETARY" />
+
+             <Name
+             name = "ABHINAV JHA"
+             designation = "CHIEF COORDINATOR" />
+
+             <Name
+             name = "AMAN YADAV"
+             designation = "JOINT TREASURER" />
+            
+        </div>
+
+
+        
 
 
         
