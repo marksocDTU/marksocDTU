@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import l from "@/assets/landing.png";
-
+import e from "@/assets/event.png";
 import s from "@/assets/svg.png";
 import r from "@/assets/Rectangle 2.png";
 import Layout from "@/components/layout";
@@ -9,7 +9,6 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import  {Articles} from "@/components/Articles";
 import Footer from "@/components/Footer";
-import Updates from "@/components/Updates";
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -39,7 +38,7 @@ export default function Home() {
        
         <div className="flex flex-shrink-0 flex-row h-max w-max-screen pl-20 items-center  justify-center">
           <div className="animation flex flex-shrink-0 flex-col gap-2 item-center m-10 w-1/2" data-aos="fade-left" >
-            <div className="flex flex-shrink-0 text-5xl font-Inter   ">MARKETING</div>
+            <div className="flex flex-shrink-0 text-5xl font-Inter  ">MARKETING</div>
             <div className="flex flex-shrink-0 text-5xl font-Inter ">SOCIETY DTU</div>
             <div className="flex flex-shrink-0 font-Inter  ">Join us at MarkSoc DTU! We're a group of students aiming to connect fellow students with real-world opportunities from our university.  Help us expand our community and build a network of like-minded individuals. Let's make the most of the opportunities together!</div>
 
@@ -51,14 +50,33 @@ export default function Home() {
         </div>
 
         <div className="flex flex-shrink-0 flex-row h-max w-max-screen items-center font-bold justify-center">
+          <div className=" animation flex flex-shrink-0 flex-col h-max m-5 p-10 px-14 gap-2 items-center rounded-md  border border-dark border-4 justify-center " data-aos="flip-right">
+            <div className="flex flex-shrink-0  items-center   justify-center"><Image src={e} alt="logo" /></div>
+            <div className="flex flex-shrink-0  items-center   justify-center">26+</div>
+            <div className="flex flex-shrink-0  items-center   justify-center">Events</div>
 
-        <div className=" animation flex flex-shrink-0 flex-col h-max m-5 p-10 px-14 gap-2 items-center rounded-md  border border-dark border-4 justify-center " data-aos="flip-right">
-          <Updates 
-          name="2"
-          logo="/event.png"
-          update="Events" /><div/>
+          </div>
 
+          <div className=" animation flex flex-shrink-0 flex-col h-max m-5 p-10 gap-2 items-center rounded-md border border-dark border-4 justify-center" data-aos="flip-right">
+            <div className="flex flex-shrink-0  items-center   justify-center"><Image src={s} alt="logo" /></div>
+            <div className="flex flex-shrink-0  items-center   justify-center">26+</div>
+            <div className="flex flex-shrink-0  items-center   justify-center">Registrations</div>
 
+          </div>
+
+          <div className="animation flex flex-shrink-0 flex-col h-max m-5 p-10 px-14 gap-2 items-center rounded-md border border-dark  border-4 justify-center"data-aos="flip-right">
+            <div className="flex flex-shrink-0  items-center   justify-center"><Image src={s} alt="logo" /></div>
+            <div className="flex flex-shrink-0  items-center   justify-center">26+</div>
+            <div className="flex flex-shrink-0  items-center   justify-center">Projects</div>
+
+          </div>
+
+          <div className="animation flex flex-shrink-0 flex-col h-max m-5 p-10 gap-2 items-center rounded-md  border border-dark  border-4  justify-center" data-aos="flip-right">
+            <div className="flex flex-shrink-0  items-center   justify-center"><Image src={s} alt="logo" /></div>
+            <div className="flex flex-shrink-0  items-center   justify-center">26+</div>
+            <div className="flex flex-shrink-0  items-center   justify-center">IG Followers</div>
+
+          </div>
 
 
 
@@ -91,8 +109,6 @@ export default function Home() {
        </div>
   
     </div>
-    </div>
-    
 
        <Footer/>
       </main>
