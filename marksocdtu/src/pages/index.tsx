@@ -3,6 +3,7 @@ import Image from "next/image";
 import l from "@/assets/landing.png";
 import e from "@/assets/event.png";
 import s from "@/assets/svg.png";
+import r from "@/assets/Rectangle 2.png";
 import Layout from "@/components/layout";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
@@ -39,7 +40,7 @@ export default function Home() {
           <div className="animation flex flex-shrink-0 flex-col item-center m-10 w-1/2" data-aos="fade-left" >
             <div className="flex flex-shrink-0 text-5xl font-Inter  ">MARKETING</div>
             <div className="flex flex-shrink-0 text-5xl font-Inter ">SOCIETY DTU</div>
-            <div className="flex flex-shrink-0 ">TEXT</div>
+            <div className="flex flex-shrink-0 font-Inter ">Join us at MarkSoc DTU! We're a group of students aiming to connect fellow students with real-world opportunities from our university.  Help us expand our community and build a network of like-minded individuals. Let's make the most of the opportunities together!</div>
 
           </div>
           <div className=" animation  flex flex-shrink-0  h-max w-1/2" data-aos="fade-right">
@@ -88,10 +89,27 @@ export default function Home() {
 
        <div className="flex flex-shrink-0 flex-col h-max w-max-screen justify-center border border-4 bg-dark "><div className="flex flex-shrink-0 flex-col h-max w-max-screen justify-center"><Articles/></div></div>
 
-       <div className="flex flex-shrink-0 flex-row h-max w-max-screen justify-center">
-        <div>vision</div>
-        <div>mission</div>
+       <div className="flex flex-col md:flex-row h-auto md:h-max justify-center items-center md:items-start">
+        <div className="md:order-1 flex flex-shrink-0 w-full md:w-fit h-max rounded-md items-center justify-center md:ml-32">
+         <Image src={r} alt="vectorArt" />
+        </div>
+       <div className="md:order-2 flex flex-col w-full md:w-max-screen">
+       <div className="mx-auto max-w-md md:max-w-lg p-6 bg-white rounded-md shadow-md mt-12 md:mt-8 mb-8 ">
+       <div className="text-3xl font-semibold mb-4">Vision</div>
+       <div className="text-base text-gray-700 leading-relaxed">
+          We, as a society, want to provide a platform for aspiring students in our college to get proper guidance and a path to pursue their passion from scratch and to create a culture in college that would help building aspires to grow. With the help of our experienced and talented seniors, we aim to build a community that will elevate a learning space for our fellow students by conducting regular workshops to help them tackle any problem that they might be facing in the broad field of marketing.
        </div>
+       </div>
+       <div className="mx-auto max-w-md md:max-w-lg p-6 bg-white rounded-md shadow-md mb-8">
+       <div className="text-3xl font-semibold mb-4">Mission</div>
+       <div className="text-base text-gray-700 leading-relaxed">
+         MarkSoc DTU empowers students passionate about marketing by providing a dynamic platform for skill development and knowledge expansion. Our inclusive community welcomes all, offering essential skills for confident entry into the corporate world. Through practical skill development, ethical practices, and experiential learning, we prepare members for diverse opportunities in marketing. We collaborate with companies for hands-on projects and guide students to explore and nurture their passions for a thriving culture of growth.
+       </div>
+       </div>
+       </div>
+  
+    </div>
+
        <Footer/>
       </main>
     </>
