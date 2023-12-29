@@ -1,10 +1,10 @@
-
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import React from 'react';
 import Image from "next/image";
-import l from "@/assets/landing.png";
+import l from "@/assets/event1.png";
+import m from "@/assets/event2.png";
 
 
 type Props = {
@@ -21,7 +21,7 @@ export const Articles = () => {
     {
       name: "Tom ",
       content:
-        "I'm a testimonial. Click to edit me and add text that syas soemthing nice about you and your services.",
+      <Image src={m} alt="logo" />,
     },
     {
       name: "Tom Smnson",

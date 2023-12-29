@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import l from "@/assets/Ansh.png";
+
 import e from "@/assets/event.png";
 import s from "@/assets/svg.png";
 import Layout from "@/components/layout";
@@ -33,19 +33,23 @@ export default function Home() {
         <div className="flex flex-row   m-10 gap-14 justify-center flex-shrink-0">
             <Name
              name = "ANSH DHAMA"
+             image="/images/Ansh.png"
              designation = "PRESIDENT"
-             image={l} />
+             />
 
              <Name
              name = "ANKIT GOYAL"
+             image="/images/AnkitGoyal.png"
              designation = "VICE-PRESIDENT" />
 
              <Name
              name = "ANUJ"
+             image="/images/Anuj.png"
              designation = "TREASURER" />
 
              <Name
              name = "AMAN YADAV"
+             image="/images/Aman Yadav.png"
              designation = "JOINT TREASURER" />
             
         </div>
@@ -54,20 +58,60 @@ export default function Home() {
         <div className="flex flex-row   m-10 gap-14 justify-center flex-shrink-0">
             <Name
              name = "HARSH AGGARWAL"
+             image="/images/Harsh.png"
              designation = "GENERAL SECRETARY" />
 
              <Name
              name = "ADRIKA MISHRA"
+             image="/images/Adrika.png"
              designation = "JOIN SECRETARY" />
 
              <Name
              name = "ABHINAV JHA"
+             image="/images/Abhinav.png"
              designation = "CHIEF COORDINATOR" />
 
-             <Name
-             name = "AMAN YADAV"
-             designation = "JOINT TREASURER" />
             
+            
+        </div>
+
+
+        <div className="flex flex-shrink-0 w-max-screen h-max p-4 border text-4xl text-center  font-dark font-bold  "> JUNIOR COUNCIL</div>
+
+        <div className="flex flex-row   m-10 gap-14 justify-center flex-shrink-0">
+            <Name
+             name = "YASH CHOUDHARY"
+             image="/images/YashChoudhary.png"
+             designation = "TECHNICAL HEAD"
+             />
+
+             <Name
+             name = "SAHIL ANAND"
+             image="/images/SahilAnand.png"
+             designation = "TECHNICAL HEAD" />
+
+             <Name
+             name = "DIVYANSH"
+             image="/images/Divyansh.png"
+             designation = "TECHNICAL HEAD" />
+
+         
+        </div>
+
+        <div className="flex flex-row   m-10 gap-14 justify-center flex-shrink-0">
+            <Name
+             name = "NIKITA"
+             image="/images/Nikita.png"
+             designation = "DESIGN HEAD"
+             />
+
+             <Name
+             name = "JEFFIN"
+             image="/images/Jeffin.png"
+             designation = "DESIGN HEAD" />
+
+
+         
         </div>
 
 
