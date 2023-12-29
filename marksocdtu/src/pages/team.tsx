@@ -58,13 +58,13 @@ export default function Home() {
         <div className="flex flex-row   m-10 gap-14 justify-center flex-shrink-0">
             <Name
              name = "HARSH AGGARWAL"
-             image="/images/Harsh.png"
+             image="/images/Harsh.jpeg"
              designation = "GENERAL SECRETARY" />
 
              <Name
              name = "ADRIKA MISHRA"
              image="/images/Adrika.png"
-             designation = "JOIN SECRETARY" />
+             designation = "JOINT SECRETARY" />
 
              <Name
              name = "ABHINAV JHA"
@@ -109,10 +109,31 @@ export default function Home() {
              name = "JEFFIN"
              image="/images/Jeffin.png"
              designation = "DESIGN HEAD" />
+         
+        </div>
 
+        <div className="flex flex-row   m-10 gap-14 justify-center flex-shrink-0">
+            <Name
+             name = "UJJAWAL"
+             image="/images/Ujjawal.png"
+             designation = "EVENTS HEAD"
+             />
+
+             <Name
+             name = "SOMEEN"
+             image="/images/Someen.png"
+             designation = "EVENTS HEAD" />
+
+             <Name
+             name = "DEEPANSHU"
+             image="/images/Deepanshu.png"
+             designation = "EVENTS HEAD" />
 
          
         </div>
+
+             
+
 
 
         
