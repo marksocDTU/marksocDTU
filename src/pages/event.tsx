@@ -16,7 +16,7 @@ export default function Home() {
   return (
    <div>
     <Header/>
-     <div className="flex flex-shrink-0 justify-items-center max-w-full h-full bg-zinc-300 ">
+     <div className="flex flex-shrink-0 justify-items-center max-w-full h-full  ">
       <div className="flex flex-shrink-0 text-black"> <Slideshow /> </div>
     </div> 
   

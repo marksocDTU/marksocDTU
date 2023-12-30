@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import React from 'react';
 import Image from "next/image";
-import l from "@/assets/landing.png";
+import l from "@/assets/event1.png";
 
 
 type Props = {
@@ -82,20 +82,20 @@ export const Slideshow = () => {
   };
 
   return (
-    <div className="w-3/4 m-auto">
-      <div className="mt-20 mb-10">
+    <div className="w-[720px] border-10 m-auto">
+      <div className="w-max-screen h-max-screen mt-20 mb-10">
         <Slider {...settings}>
           {clientData.map((client) => (
             <div
               key={client.name}
-              className="bg-light h-[300px] text-black rounded-xl  border border-dark border-5"
+              className="bg-light w-full-screen  text-black rounded-xl  border border-dark border-5"
             >
               
-              <div className="flex flex-col items-center gap-4 p-4 mt-20">
-                <p className="text-center px-4">{client.content}</p>
-                <p className="text-xl text-center font-semibold mt-4">
+              <div className="flex flex-col w-5000 items-center gap-4 p-4 ">
+                <div className="text-center px-4">{client.content}</div>
+                <div className="text-xl text-center font-semibold mt-4">
                   {client.name}
-                </p>
+                </div>
               </div>
             </div>
           ))}
