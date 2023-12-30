@@ -18,38 +18,38 @@ const Header = (props: Props) => {
 
       {/* // Desktop/Tablet */}
       <nav className="hidden xl:block">
-        <Navlink href="/" pathname={pathname}>
+        <Navlink href="/" pathname="">
           Home
         </Navlink>
-        <Navlink href="team" pathname={pathname}>
+        <Navlink href="team" pathname="">
           Our Team
         </Navlink>
-        <Navlink href="#" pathname={pathname}>
+        <Navlink href="#" pathname="">
           Live Projects
         </Navlink>
-        <Navlink href="event" pathname={pathname}>
+        <Navlink href="event" pathname="">
           Events
         </Navlink>
-        <Navlink href="contact" pathname={pathname}>
+        <Navlink href="contact" pathname="">
           Contact us
         </Navlink>
       </nav>
       {/* // Mobile */}
       <nav className={`absolute right-0 top-24 flex h-[calc(100%-6rem)] w-full flex-col items-center justify-center bg-white text-xl xl:hidden ${showMobileMenu ? "flex" : "hidden"}`}>
-        <Navlink href="/" pathname={pathname}>
+        <Navlink href="/" pathname="">
           Home
         </Navlink>
-        <Navlink href="#" pathname={pathname}>
+        <Navlink href="#" pathname="">
           Team
         </Navlink>
-        <Navlink href="#" pathname={pathname}>
+        <Navlink href="#" pathname="">
           Live Projects
         </Navlink>
-        <Navlink href="#" pathname={pathname}>
+        <Navlink href="#" pathname="">
           Events
         </Navlink>
 
-        <Navlink href="#" pathname={pathname}>
+        <Navlink href="#" pathname="">
           Contact
         </Navlink>
       </nav>

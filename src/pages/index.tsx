@@ -50,7 +50,7 @@ export default function Home() {
           <div className="animation flex flex-shrink-0 flex-col gap-2 item-center m-10 w-1/2" data-aos="fade-left" >
             <div className="flex flex-shrink-0 text-5xl font-Inter font-bold  ">MARKETING</div>
             <div className="flex flex-shrink-0 text-5xl text-dark font-Inter font-bold ">SOCIETY DTU</div>
-            <div className="flex flex-shrink-0 font-Inter  ">Join us at MarkSoc DTU! We're a group of students aiming to connect fellow students with real-world opportunities from our university.  Help us expand our community and build a network of like-minded individuals. Let's make the most of the opportunities together!</div>
+            <div className="flex flex-shrink-0 font-Inter  ">Join us at MarkSoc DTU! We re a group of students aiming to connect fellow students with real-world opportunities from our university.  Help us expand our community and build a network of like-minded individuals. Let s make the most of the opportunities together!</div>
 
           </div>
           <div className=" animation  flex flex-shrink-0  h-max w-1/2" data-aos="fade-right">
@@ -125,6 +125,7 @@ export default function Home() {
     </div>
 
        <Footer/>
+
       </main>
     </>
   );
