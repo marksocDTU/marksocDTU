@@ -16,10 +16,10 @@ export const Slideshow = () => {
     {
       name: "Tom Smithenson",
       content:
-      <Image src={l} alt="logo" />,
+      <Image src={l} alt="logo"  />,
     },
     {
-      name: "Tom ",
+      name: "T ",
       content:
         "I'm a testimonial. Click to edit me and add text that syas soemthing nice about you and your services.",
     },
@@ -63,8 +63,8 @@ export const Slideshow = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 3,
+    slidesToShow: 1,
+    slidesToScroll: 1,
     autoplay: true,
     autoplayspeed: 2000,
   
@@ -82,16 +82,16 @@ export const Slideshow = () => {
   };
 
   return (
-    <div className="w-[720px] border-10 m-auto">
-      <div className="w-max-screen h-max-screen mt-20 mb-10">
+    <div className="w-[720px]  border-10 ml-40 pl-40">
+      <div className="w-max-screen border h-max-screen  ">
         <Slider {...settings}>
           {clientData.map((client) => (
             <div
               key={client.name}
-              className="bg-light w-full-screen  text-black rounded-xl  border border-dark border-5"
+              className="s w-full-screen  text-black rounded-xl  "
             >
               
-              <div className="flex flex-col w-5000 items-center gap-4 p-4 ">
+              <div className="flex flex-col  w-screen-full h-[480px] items-center gap-4 ">
                 <div className="text-center px-4">{client.content}</div>
                 <div className="text-xl text-center font-semibold mt-4">
                   {client.name}
