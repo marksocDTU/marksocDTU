@@ -4,7 +4,7 @@ import l from "@/assets/landing.png";
 import e from "@/assets/event.png";
 import i from "@/assets/instaa.png";
 import s from "@/assets/svg.png";
-import r from "@/assets/Rectangle 2.png";
+import r from "@/assets/i.png";
 import Layout from "@/components/layout";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
