@@ -10,7 +10,7 @@ const config: Config = {
       },
       colors: {
         dark: "#16417F",
-        light: "#F3FDE8",
+        light: "#D9D9D9",
         primary: {
           500: "#068B7C",
           600: "#08736E",

@@ -12,6 +12,7 @@ import Footer from "@/components/Footer";
 
 
 
+
 // import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ["latin"] });
@@ -27,10 +28,10 @@ export default function Home() {
       </Head>
       <main>
        <Header/>
-       <div className="flex flex-col flex-shrink-0 gap-7 justify-center p-20 w-max-screen h-max">
-        <div className="flex flex-shrink-0 w-max-screen h-max p-4 border text-4xl text-center  font-dark font-bold  "> SENIOR COUNCIL</div>
+       <div className="flex flex-col flex-shrink-0 gap-7 justify-center p-20 w-max-screen h-max ">
+        <div className="flex flex-shrink-0  border text-4xl  text-center  font-dark font-bold  "> SENIOR COUNCIL</div>
 
-        <div className="flex flex-row   m-10 gap-14 justify-center flex-shrink-0">
+        <div className="flex flex-row item-start  m-10 gap-14 justify-center flex-shrink-0">
             <Name
              name = "ANSH DHAMA"
              image="/images/Ansh.png"
@@ -76,7 +77,7 @@ export default function Home() {
         </div>
 
 
-        <div className="flex flex-shrink-0 w-max-screen h-max p-4 border text-4xl text-center  font-dark font-bold  "> JUNIOR COUNCIL</div>
+        <div className="flex flex-shrink-0 text-4xl text-center  font-dark font-bold  "> JUNIOR COUNCIL</div>
 
         <div className="flex flex-row   m-10 gap-14 justify-center flex-shrink-0">
             <Name
