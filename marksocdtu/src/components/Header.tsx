@@ -40,20 +40,15 @@ const Header = (props: Props) => {
           Home
         </Navlink>
         <Navlink href="#" pathname={pathname}>
-          How it Works
+          Team
         </Navlink>
         <Navlink href="#" pathname={pathname}>
-          Features
+          Live Projects
         </Navlink>
         <Navlink href="#" pathname={pathname}>
-          Clients
+          Events
         </Navlink>
-        <Navlink href="#" pathname={pathname}>
-          Categories
-        </Navlink>
-        <Navlink href="#" pathname={pathname}>
-          Testimonials
-        </Navlink>
+
         <Navlink href="#" pathname={pathname}>
           Contact
         </Navlink>

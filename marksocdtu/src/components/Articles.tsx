@@ -14,12 +14,12 @@ type Props = {
 export const Articles = () => {
   const clientData = [
     {
-      name: "Tom Smithenson",
+      name: "Visionary Vortex",
       content:
       <Image src={l} alt="logo" />,
     },
     {
-      name: "Tom ",
+      name: "Pixel Pitch",
       content:
       <Image src={m} alt="logo" />,
     },
@@ -91,7 +91,7 @@ export const Articles = () => {
               className="bg-light h-[300px] text-black rounded-xl  border border-dark border-5"
             >
               
-              <div className="flex flex-col items-center gap-4 p-4 mt-20">
+              <div className="flex flex-col items-center gap-4 p-4 ">
                 <p className="text-center px-4">{client.content}</p>
                 <p className="text-xl text-center font-semibold mt-4">
                   {client.name}
