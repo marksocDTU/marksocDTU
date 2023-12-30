@@ -50,7 +50,7 @@ export default function Home() {
 
              <Name
              name = "AMAN YADAV"
-             image="/images/Aman Yadav.png"
+             image="/images/AmanYadav.png"
              designation = "JOINT TREASURER" />
             
         </div>
