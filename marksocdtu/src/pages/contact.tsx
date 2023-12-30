@@ -13,30 +13,22 @@ export default function Contact() {
   return (
     <div>
          <Header/>
-         <div>map</div>
+      
          <div className=" flex flex-shrink-0 flex-col h-max w-max-screen ">
           <div className=" flex flex-shrink-0 flex-col h-1/2 w-full-screen p-50 border justify-item-center ">
             <div className="flex flex-shrink-0 flex-col h-max w-max-screen text-center text-4xl px-50 m-10 ">Send a message</div>
-            <div className="flex flex-shrink-0 flex-col h-max w-max-screen  ">
-            <div className="flex flex-shrink-0 w-max h-max items-stretch flex-col justify-center m-5 gap-4">
+            <div className="flex flex-shrink-0 flex-col h-max w-max-screen  mx-auto ">
+            <div className="flex flex-shrink-0 w-max h-max items-stretch flex-col justify-center  gap-4 ml-10 ">
               
-                <input type="text" className="flex flex-shrink-0 w-max-screen  border border-gray  placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black-600 sm:text-sm sm:leading-6" placeholder="Enter your Name"/> 
-                <input type="text" className="flex flex-shrink-0 w-max-screen  border border-gray  placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black-600 sm:text-sm sm:leading-6" placeholder="Enter your Name"/> 
-              
-
-              
-              <div className="flex flex-shrink-0  flex-row h-max  bg-white border border-gray-500 gap-2 items-center">
-                <div className="flex flex-shrink-0 text-black text-opacity-50 text-xl  font-inter ">Message</div>
-                <input type="text" className="flex flex-shrink-0 w-max-screen  border border-gray  placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black-600 sm:text-sm sm:leading-6" placeholder="Enter your Name"/></div>
-
-
-
-
-
- 
-    </div>
-
-              
+                <input type="text" className="flex flex-shrink-0 w-max-screen pr-80 border border-gray  placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black-600 sm:text-sm sm:leading-6" placeholder="Enter your Name"/> 
+                <input type="text" className="flex flex-shrink-0 w-max-screen pr-80 border border-gray  placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black-600 sm:text-sm sm:leading-6" placeholder="Enter your Email-address"/> 
+                <input type="text" className="flex flex-shrink-0 w-max-screen  border border-gray  placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black-600 sm:text-sm sm:leading-6" placeholder="Enter your Subject"/>
+                <input type="text" className="flex flex-shrink-0 w-max-screen h-24  border border-gray  placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black-600 sm:text-sm sm:leading-6" placeholder="Enter your Message"/>
+                <div className="mt-3 mb-7">
+                <button className="flex flex-shrink-0 bg-black text-white font-Inter text-base px-6 py-3 rounded hover:bg-zinc-800 active:bg-gray-700">Send Message</button>
+                </div>
+     
+           </div>  
             </div>
 
           </div>
@@ -79,7 +71,8 @@ export default function Contact() {
 
 
 
-<div className="flex flex-shrink-0 w-full h-80 relative">
+ <div className="flex flex-shrink-0 w-full h-60 relative lg:ml-80 mt-10 sm: ml-0 ">
+
   <div className="flex flex-shrink-0 w-64 h-56 pl-5 pb-96 left-0 top-[68.80px] absolute flex-col justify-start items-start gap-5 ">
     <div className="flex flex-shrink-0 w-64 h-20 pb-2.5 justify-start items-start gap-3.5 ">
       <div className="flex flex-shrink-0 w-6 h-6 relative"><svg width="26" height="27" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -93,12 +86,14 @@ export default function Contact() {
 </defs>
 </svg>
 </div>
+      <a href="https://maps.app.goo.gl/DXScjgRLJ6wWZfX7A" target="_blank">
       <div className="flex flex-shrink-0 w-48 h-20 pr-1.5 pb-96 flex-col justify-start items-start">
         <div className="flex flex-shrink-0 text-black text-sm font-light font-['Inter'] leading-tight">Delhi Technological University,</div>
         <div className="flex flex-shrink-0 text-black text-sm font-light font-['Inter'] leading-tight">Bawana Road, Shahbad Daulatpur Village,</div>
         <div className="flex flex-shrink-0 text-black text-sm font-light font-['Inter'] leading-tight">Rohini, </div>
         <div className="flex flex-shrink-0 text-black text-sm font-light font-['Inter'] leading-tight">New Delhi - 110042</div>
       </div>
+      </a>
     </div>
   </div>
   <div className="flex flex-shrink-0 w-64 h-12 pr-4 pb-2.5 left-[691px] top-[79px] absolute justify-start items-start gap-3.5 ">
@@ -131,13 +126,12 @@ export default function Contact() {
 </defs>
 </svg></div>
     <div className="flex flex-shrink-0 w-48 h-10 pr-0.5 pb-96 flex-col justify-start items-start">
-      <div className="flex flex-shrink-0 text-black text-sm font-light font-['Inter'] leading-tight">marksocdtuofficial@gm</div>
-      <div className="flex flex-shrink-0 text-black text-sm font-light font-['Inter'] leading-tight">ail.com</div>
+      <div className="flex flex-shrink-0 text-black text-sm font-light font-['Inter'] leading-tight">marksocdtuofficial@gmail.com</div>
+      
     </div>
   </div>
   <div className="flex flex-shrink-0 left-[60.30px] top-[-0.90px] absolute text-black text-2xl font-medium font-['Inter'] leading-7">Contact Info</div>
-</div>
-
+</div> 
 
 
 <Footer/>
